@@ -1,0 +1,17 @@
+Usage:
+  rails generate concern NAME [options]
+
+Options:
+      [--skip-namespace]  # Skip namespace (affects only isolated applications)
+      [--old-style-hash]  # Force using old style hash (:foo => 'bar') on Ruby >= 1.9
+      [--type=TYPE]       # The type of concern, model or controller
+                          # Default: model
+  -e, [--extended]        # Full concern (ClassMethods, InstanceMethods, included do)
+
+Runtime options:
+  -f, [--force]    # Overwrite files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Suppress status output
+  -s, [--skip]     # Skip files that already exist
+
+This creates a model concern
